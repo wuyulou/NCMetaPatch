@@ -34,7 +34,7 @@
     root.innerHTML =
       '<button class="nm-fab" id="nm-toggle">网易云补充助手</button>' +
       '<div class="nm-panel" id="nm-panel" style="display:none;">' +
-      '<h3>NCMeta-Patch-网易云音乐专辑补充助手</h3>' +
+      '<h3>NCMetaPatch</h3>' +
       '<p id="nm-page-state">点击左下角按钮采集资料、下载封面并打开网易云补充页。</p>' +
       '<div class="nm-row">' +
       '<button class="primary" data-action="scan">扫描页面</button>' +

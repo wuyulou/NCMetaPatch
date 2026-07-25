@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "NCMeta-Patch-网易云音乐专辑补充助手",
+  "name": "NCMetaPatch",
   "version": "0.2.1",
   "description": "一个用于整理专辑资料并辅助填写网易云音乐专辑补充页的 Chrome/Edge MV3 扩展。在 Discogs、Rate Your Music 或 Bandcamp 的专辑页面点击左下角按钮，扩展会采集当前专辑资料、下载封面、打开网易云补充页，并尝试自动填写可识别字段。封面选择、内容复核和最终提交始终由你手动完成。",
   "icons": {
@@ -21,7 +21,7 @@
     "service_worker": "src/background.js"
   },
   "action": {
-    "default_title": "NCMeta-Patch-网易云音乐专辑补充助手",
+    "default_title": "NCMetaPatch",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "assets/icons/icon-16.png",
