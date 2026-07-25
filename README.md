@@ -3,7 +3,8 @@
 一个用于整理专辑资料并辅助填写网易云音乐专辑补充页的 Chrome/Edge MV3 扩展。在 `Discogs`、`Rate Your Music` 或 `Bandcamp` 的专辑页面点击左下角按钮，扩展会采集当前专辑资料、下载封面、打开网易云补充页，并尝试自动填写可识别字段。封面选择、内容复核和最终提交始终由你手动完成。
 
 <img width="1254" height="1254" alt="file_0000000054e881f89da5d12f778df9b0" src="https://github.com/user-attachments/assets/2603671d-c398-4695-b72d-ab1714d16c00" />
-NCMetaPatch插件logo
+                                                                           
+                                                            NCMetaPatch插件logo
 
 ## About / 简介
 
