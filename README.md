@@ -26,11 +26,12 @@ This project was inspired by [zeqianli/DoubanListingHelper](https://github.com/z
 
 ## 安装 / Install
 
-1. 打开 Chrome，进入 `chrome://extensions/`
-2. 打开右上角“开发者模式”
-3. 点击“加载未打包的扩展程序”
-4. 选择本项目根目录，也就是包含 `manifest.json` 的文件夹
-5. 修改扩展后，在扩展管理页点击“重新加载”，并刷新已打开的来源页和网易云页面
+1. 在本项目页面右上方点击绿色的Code选项，再点击Download ZIP进行下载
+2. 打开 Chrome，进入 `chrome://extensions/`
+3. 打开右上角“开发者模式”
+4. 点击“加载未打包的扩展程序”
+5. 选择本项目根目录，也就是包含 `manifest.json` 的文件夹
+6. 修改扩展后，在扩展管理页点击“重新加载”，并刷新已打开的来源页和网易云页面
 
 Edge 的安装方式相同，扩展管理地址为 `edge://extensions/`。
 
