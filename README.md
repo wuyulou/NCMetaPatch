@@ -4,7 +4,7 @@
 
 <img width="1254" height="1254" alt="file_0000000054e881f89da5d12f778df9b0" src="https://github.com/user-attachments/assets/2603671d-c398-4695-b72d-ab1714d16c00" />
                                                                            
-                                                            NCMetaPatch插件logo
+       NCMetaPatch插件logo
 
 ## About / 简介
 
