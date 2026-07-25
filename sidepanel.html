@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NCMeta-Patch-网易云音乐专辑补充助手</title>
+    <link rel="stylesheet" href="src/ui.css" />
+  </head>
+  <body class="nm-sidepanel">
+    <header class="nm-header">
+      <div class="nm-brand-row">
+        <img class="nm-brand-logo" src="assets/icons/icon-512.png" alt="NCMeta-Patch-网易云音乐专辑补充助手 Logo" />
+        <div class="nm-brand-copy">
+          <div class="nm-brand">NCMeta-Patch-网易云音乐专辑补充助手</div>
+          <div class="nm-muted">在 Discogs、Rate Your Music 或 Bandcamp 的专辑页面点击左下角按钮，扩展会采集当前专辑资料、下载封面、打开网易云补充页，并尝试自动填写可识别字段。封面选择、内容复核和最终提交始终由你手动完成。</div>
+        </div>
+      </div>
+      <button id="open-target-page" class="nm-button">打开补充页</button>
+    </header>
+
+    <section class="nm-card">
+      <div class="nm-section-title">一键补充流程</div>
+      <div class="nm-steps">
+        <div class="nm-step">1. 在 Discogs、Rate Your Music 或 Bandcamp 的专辑页点击左下角“补充到网易云”。</div>
+        <div class="nm-step">2. 插件会自动下载封面，并打开网易云专辑补充页。</div>
+        <div class="nm-step">3. 如果页面没有自动填上，就在这里点“填充当前页面”。</div>
+        <div class="nm-step">4. 最后手动检查并提交，艺人栏不会自动填写。</div>
+      </div>
+    </section>
+
+    <section class="nm-card">
+      <div class="nm-section-title">自动化边界</div>
+      <div class="nm-steps">
+        <div class="nm-step">会尝试填写专辑名、发行公司、发行日期和专辑介绍等可识别字段。</div>
+        <div class="nm-step">不会填写艺人栏，也不会填写网易云页面中单独的“补充备注”。</div>
+        <div class="nm-step">不会自动选择本地封面，也不会自动提交；请在提交前逐项复核。</div>
+      </div>
+    </section>
+
+    <section class="nm-card">
+      <div class="nm-section-title">当前草稿</div>
+      <div id="draft-summary" class="nm-summary">还没有导入资料。</div>
+      <div id="draft-preview" class="nm-preview"></div>
+      <div class="nm-actions">
+        <button id="fill-page" class="nm-button nm-button-primary">填充当前页面</button>
+        <button id="scan-page" class="nm-button">扫描当前页面</button>
+        <button id="copy-summary" class="nm-button">复制摘要</button>
+        <button id="clear-draft" class="nm-button">清空草稿</button>
+      </div>
+    </section>
+
+    <section class="nm-card">
+      <div class="nm-section-title">日志</div>
+      <div id="log" class="nm-log"></div>
+    </section>
+
+    <script src="src/shared.js"></script>
+    <script src="src/sidepanel.js"></script>
+  </body>
+</html>
